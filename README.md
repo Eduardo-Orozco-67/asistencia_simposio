@@ -1,13 +1,36 @@
-# Constructora
+# 🎨 Frontend - Proyecto Simposio
 
-Bienvenido al repositorio del proyecto "Constructora", una solución moderna y eficiente para gestionar proyectos de construcción. Este proyecto está dividido en dos partes principales: una interfaz para clientes y un panel de administración para gestores de la constructora.
+Este es el **frontend** del sistema presentado en el Simposio, desarrollado con **Vue.js**.  
+Se encarga de la interfaz de usuario y de consumir los servicios REST expuestos por el backend (FastAPI).
 
-## Estructura del Proyecto
+## 🚀 Tecnologías
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/) (para el bundling y dev server)
+- [Axios](https://axios-http.com/) (para consumir APIs)
+- [PrimeVue](https://www.primefaces.org/primevue/) (UI Components)
 
-El repositorio contiene dos carpetas principales:
+## 📌 Funcionalidades
+- Formularios dinámicos para registro y gestión de datos.
+- Tablas interactivas con filtros y paginación.
+- Consumo de API REST proveniente del backend.
+- Validaciones en tiempo real.
+- Diseño responsive.
 
-1. **Cliente**: La interfaz para los clientes, donde pueden agregar su empresa, crear una solicitud de proyecto y revisar los estatus del mismo, a su vez consultar un chat de ayuda
-2. **Administrador**: Un panel de control para los administradores de la constructora, permitiendo la gestión de proyectos y clientes
+## ⚙️ Instalación y uso
+```bash
+# Clonar el repositorio
+git clone https://github.com/tuusuario/proyecto-frontend.git
+cd proyecto-frontend
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
+
+# Generar build para producción
+npm run build
+
 
 ## Tecnologías Utilizadas
 
