@@ -8,6 +8,7 @@ Se encarga de la interfaz de usuario y de consumir los servicios REST expuestos 
 - [Vite](https://vitejs.dev/) (para el bundling y dev server)
 - [Axios](https://axios-http.com/) (para consumir APIs)
 - [PrimeVue](https://www.primefaces.org/primevue/) (UI Components)
+- [Tailwind](https://tailwindcss.com/) (CSS)
 
 ## 📌 Funcionalidades
 - Formularios dinámicos para registro y gestión de datos.
@@ -48,10 +49,6 @@ Instrucciones paso a paso para configurar el proyecto en tu entorno local.
 git clone https://github.com/Eduardo-Orozco-67/ProyectoConstrutora_Fronted_vue.git
 ```
 
-### navega a la carpeta del cliente
-```bash
-cd constructora/cliente
-```
 ### instala las dependencias
 ```bash
 npm install
@@ -60,18 +57,10 @@ npm install
 ```bash
 npm run serve
 ```
-
-### repite los pasos para la carpeta del administrador
-```bash
-cd ../administrador
-npm install
-npm run serve
-```
 ### Instalar socket.io-cliente y axios en ambos proyectos
 
 ```bash
 npm install axios
-npm install sockect.io-cliente
 ```
 ## Browser Support
 
